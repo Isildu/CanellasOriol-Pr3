@@ -1,3 +1,9 @@
-p ~ p {
-    color: orange;
+/**{
+    border: 1px solid blue;
 }
+    */
+h1[title="secundario"] { color: orange; } /*que tenga ese valor*/
+h2[title="titulo"] { color: green; }
+h1[title] { color: red; } /*que tenga ese atributo*/
+h3[title ~="titulo"] { color: green; } /*que contenga este valor*/
+h3[lang^="es"] { color: blue; } /*empieza por*/
