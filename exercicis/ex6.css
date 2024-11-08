@@ -2,6 +2,18 @@ h1{
     background-color: black;
     color: white;
 }
-h2{
+div{
     background-color: gray;
+}
+div h2{
+    background-color: gray;
+    display: inline;
+    margin-right: 44%;
+}
+header{
+    background-color: lightgray;
+}
+a{
+    margin-right: 10%;
+    margin-left: 10%;
 }
