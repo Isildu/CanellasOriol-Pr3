@@ -17,3 +17,7 @@ a{
     margin-right: 10%;
     margin-left: 10%;
 }
+.PRIERACLAS{
+    display: flex;
+    gap: 15px;
+}
