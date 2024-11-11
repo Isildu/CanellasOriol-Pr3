@@ -7,8 +7,11 @@ div{
 }
 .object1{
     background-color: gray;
-    display: inline;
-    margin-right: 44%;
+    display: flex;
+    justify-content: space-around;
+}
+.object1.1{
+    
 }
 header{
     background-color: lightgray;
